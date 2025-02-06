@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart / Home</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">Marmeto</div>
+        <nav>
+            <ul>
+                <li style="text-align: center;"><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Cart</h2>
+        <nav class="breadcrumb">
+            <a href="#">Home</a> > <span>Cart</span>
+        </nav>
+    </main>
+
+    <div class="cart-container">
+        <div class="cart-items" id="cart-items">
+            <h3>Product</h3>
+            <h3>Price</h3>
+            <h3>Quantity</h3>
+            <h3>Subtotal</h3>
+        </div>
+        <div class="cart-summary">
+            <h2>Cart Totals</h2>
+            <p>Subtotal: <span id="subtotal">Rs. 250,000.00</span></p>
+            <p>Total: <span id="total">Rs. 250,000.00</span></p>
+            <button id="checkout">Check Out</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-section">
+            <p>✅ High Quality - Crafted from top materials</p>
+            <p>🔒 Warranty Protection - Over 2 years</p>
+            <p>🚚 Free Shipping - Order over 150 $</p>
+            <p>💬 24 / 7 Support - Dedicated support</p>
+        </div>
+    </footer>
+</body>
+</html>
